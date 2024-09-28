@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pagina de Peliculas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-escale=1.0" />
+    <link rel="stylesheet" href="Css/estilo.css" />
+    <link rel="stylesheet" href="Css/Modal.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="index.html" class="logo">ViX</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="imagenes/menu.png" class="menu-icono" alt="menu" />
+        </label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="Categorias.html">Categorias</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="btn-1">Login</a>
+      </div>
+      <div class="header-content container">
+        <div class="header-1">
+          <img src="imagenes/venom.png" alt="" />
+          <a href="#" class="btn-2">Ver ahora</a>
+        </div>
+
+        <div class="header-2">
+          <h1>
+            Las mejores <br />
+            Peliculas
+          </h1>
+          <img src="imagenes/play.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <h2>Categorias:</h2>
+    <select id="categoryFilter">
+      <option value="todo">Todo</option>
+      <option value="peliculas">Peliculas</option>
+      <option value="series">Series</option>
+    </select>
+    <section class="movies container">
+      <br />
+
+      <div class="box-container-1">
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img
+              src="imagenes/Transformers_One.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Transformers_One</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img
+              src="imagenes/Black_adam.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Blacj Adam</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img
+              src="imagenes/Residen_evil.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Residen Evil</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img
+              src="imagenes/Thor.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Thor-Love and thunder</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img
+              src="imagenes/12_hombres_sin_piedad.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>12 hombres sin piedad</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="peliculas">
+            <img src="imagenes/Venom.jpg" alt="" class="movie-img" />
+            <h3>Venom-Last there be Carnage</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+      </div>
+      <div class="load-more" id="load-more-1" data-category="peliculas">
+        Ver mas
+      </div>
+    </section>
+
+    <section class="movies container">
+      <br />
+
+      <div class="box-container-2">
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/Spectral.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Spectral</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/One-Piece.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>One piece</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/Breaking-bad.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Breaking Bad</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/RickandMorty.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Rick y Morty</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/chernobyl.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Chernobyl</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+
+        <div>
+          <div class="content, movie-card" data-category="series">
+            <img
+              src="imagenes/Increible.jpg"
+              alt=""
+              height="380"
+              width="260"
+              class="movie-img"
+            />
+            <h3>Increible</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              porta et lacus sed sagittis. Aliquam a augue luctus, interdum
+              purus id, luctus diam.
+            </p>
+            <button class="favorite-btn">Favorite</button>
+          </div>
+        </div>
+      </div>
+      <div class="load-more" id="load-more-2" data-category="series">
+        Ver mas
+      </div>
+    </section>
+
+    <div id="movieModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalMovieImage" class="modal-movie-img" alt="Movie Image" />
+        <h2 id="movieTittle"></h2>
+        <p id="movieDescription"></p>
+      </div>
+    </div>
+
+    <footer class="footer container">
+      <h3>ViX</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="Categorias.html">Categorias</a></li>
+      </ul>
+    </footer>
+    <script src="Js/Clasificación.js"></script>
+    <script src="Js/Modal.js"></script>
+    <script src="Js/Favorito.js"></script>
+  </body>
+</html>
